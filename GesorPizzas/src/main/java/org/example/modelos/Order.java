@@ -17,5 +17,12 @@ public class Order {
         return id;
     }
 
-    // Getters y setters...
+    public Pizza getPizza() {
+        return pizza;
+    }
+
+    public String getUserId() {
+     return userId;
+    }
+
 }

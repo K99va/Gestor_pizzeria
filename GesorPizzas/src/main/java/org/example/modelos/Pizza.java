@@ -17,5 +17,8 @@ public class Pizza {
         return price;
     }
 
-    // Getters...
+    public String getType() {
+        return type;
+    }
+
 }
